@@ -1,0 +1,9 @@
+git clone https://github.com/WalterLopezValiente/ejercicio_2.git
+cd ejercicio_2
+git checkout -b ejercicio_inter
+git add invertir_lista.pl
+git commit -m "Agregar código para invertir listas y actualizar README"
+git push origin ejercicio_inter
+git checkout master
+gir merge ejercicio_inter
+gir push origin master
