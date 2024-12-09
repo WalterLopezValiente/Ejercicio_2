@@ -5,5 +5,5 @@ git add invertir_lista.pl
 git commit -m "Agregar código para invertir listas y actualizar README"
 git push origin ejercicio_iner
 git checkout master
-gir merge ejercicio_iner
-gir push origin master
+git merge ejercicio_iner
+git push origin master
